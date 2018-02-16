@@ -29,6 +29,7 @@ import org.json.JSONArray;
 import java.util.ArrayList;
 import java.util.List;
 
+//Main activity
 public class MainActivity extends AppCompatActivity implements GithubAdapter.UserListAdapterListener {
     private static final String TAG = MainActivity.class.getSimpleName();
     private RecyclerView recyclerView;
